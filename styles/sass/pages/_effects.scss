@@ -1,0 +1,24 @@
+
+.glow {
+   text-align: center;
+   -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+   -moz-animation: glow 2.5s ease-in-out infinite alternate;
+   animation: glow 1.5s ease-in-out infinite alternate;
+ }
+ 
+ @keyframes glow {
+   from {
+     text-shadow: 
+      1px 1px 3px $primary, 
+      1px 1px 3px $primary, 
+
+   }
+   
+   to {
+     text-shadow: 
+     1px 1px 3px $primary, 
+      
+   }
+ }
+ 
+//  https://www.w3schools.com/howto/howto_css_glowing_text.asp

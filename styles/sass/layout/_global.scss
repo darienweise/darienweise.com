@@ -1,0 +1,70 @@
+@import './header';
+@import './main';
+@import './about';
+@import './portfolio';
+@import './skills';
+@import './contact';
+
+// GENERAL STYLES
+html {
+   font-size: 62.5%;
+   background-color: $secondary;
+}
+
+body {
+   background-color: $primary;
+}
+
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 5rem;
+   width: 90%;
+}
+
+img {
+   width: 100%;
+}
+
+
+ul,
+h1,h2,h3,h4,h5,h6,
+p {
+   margin: 0;
+   padding: 0;
+}
+
+li,
+li a {
+   text-decoration: none;
+}
+
+section {
+   margin-top: 5rem;
+   .wrapper {
+      padding: 3rem 0;  
+   }
+}
+
+.heading {
+   height: 10vh;
+   padding: 3rem 3rem 0 3rem;
+   width: 100%;
+   h2 {
+      border-bottom: 3px solid $light; 
+      width: 100%; 
+      text-align: left; 
+      line-height: 0.1em;
+      margin: 10px 0 20px; 
+   }
+   h2 span {
+      background: $primary; 
+      padding:0 10px; 
+   }
+}
+
+
+.hide {
+   display: none;
+}
+

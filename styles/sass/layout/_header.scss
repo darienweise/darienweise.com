@@ -1,0 +1,34 @@
+header {
+   background-color: $light;
+   max-height: 10vh;
+   max-width: 100vw;
+   padding: 2rem;
+   width: 100%;
+   
+   position: fixed;
+   bottom: 0;
+   z-index: 15;
+
+   .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+         img {
+            width: 100%;
+         }
+      }
+      nav {
+         ul {
+            display: flex;
+            justify-content: space-between;
+         }
+         li {
+            margin-left: 2.3rem;
+         }
+      }
+   }
+   
+  
+}

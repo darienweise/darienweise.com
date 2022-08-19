@@ -1,0 +1,63 @@
+.contact {
+   color: $secondary;
+   width: 100vw;
+   font-size: 1.8rem;
+   color: $secondary;
+   letter-spacing: 1px;
+   padding-bottom: 10vh;
+
+   .contactContainer {
+      display: flex;
+      align-items: center;
+      
+      p,
+      h4,
+      .text{
+         width: 100%;
+         text-align: left;
+      }
+
+      h4,
+     .text,
+     .links, 
+     .imgContainer {
+        margin-bottom: 5rem;
+     }
+
+      .imgContainer {
+         width: 48%;
+         img {
+            border-radius: 5rem;
+         }
+      }
+      .text {
+         width: 48%;
+         padding: 0 5rem;
+         h4 {
+            margin-bottom: 2rem;
+         }
+      }
+      .regards {
+         margin: 7rem 0 0 0;
+         img {
+            margin: 2rem 0 0 4rem;
+            width: 80%;
+         }
+      }
+      
+   }
+   .linkContainer {
+      font-size: 5rem;
+      
+      .link {
+         margin: 0 2rem 0 0;
+      }
+      .link i:hover,
+      .link i:focus {
+         color: $hover;
+      }
+      i {
+         margin: 1rem 0;
+      }
+   }
+}

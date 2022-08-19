@@ -1,0 +1,128 @@
+// GLOBAL TYPE STYLES
+li, 
+a {
+   text-decoration: none;
+   list-style: none;
+}
+
+h1 {
+   font-family: $sansSerif;
+   color: $light;
+   font-size: 25rem;
+}
+
+h2 {
+   font-family: $sansSerif;
+   font-weight: bold;
+   font-size: 3rem;
+   color: $light;
+}
+h3 {
+   color: inherit;
+   font-family: $sansSerif;
+   font-weight: 600;
+   font-size: 3.3rem;
+   letter-spacing: 5px;
+}
+
+h4 {
+   color: $light;
+   font-family: $sansSerif;
+   font-size: 3.8rem;
+}
+
+h5 {
+   color: $light;
+   font-family: $sansSerif;
+   font-weight: 900;
+   font-size: 1.8;
+}
+h6 {
+   color: $light;
+   font-family: $sansSerif;
+   font-size: 4rem;
+}
+
+a {
+   color: $light;
+   font-family: $sansSerif;
+   font-size: 2rem;
+}
+
+header {
+   h2,
+   a {
+      color: $primary;
+   }
+   a:hover {
+      color: $hover;
+   }
+}
+
+// ABOUT
+.about {
+   p {
+      color: $light;
+      font-family: $sansSerif;
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 3.5rem;
+   }
+}
+
+.heading {
+   h3 {
+      font-size: 2.5rem;
+   }
+}
+
+// PORTFOLIO 
+.portfolio {
+   font-family: $sansSerif;
+   font-size: 2.5rem;
+   color: $light;
+
+   h5,
+   h4,
+   li,
+   i {
+      color: $light;
+   }
+
+   p {
+      font-size: 2.2rem;
+      line-height: 3.5rem;
+
+   }
+   li {
+      font-family: $sansSerif;
+      font-size: 2rem;
+   }
+   .info p {
+      font-weight: 3rem;   
+   }
+   
+}
+
+.contact {
+   color: $light;
+   font-family: $sansSerif;
+   color: $secondary;
+   i,
+   p {
+      color: $light;
+   }
+   p {
+      font-size: 2rem;
+      line-height: 4rem;
+   }
+   a {
+      font-family: inherit;
+      color: inherit;
+      font-size: inherit;
+   }
+}
+
+
+
+

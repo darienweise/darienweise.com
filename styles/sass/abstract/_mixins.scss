@@ -1,0 +1,52 @@
+// FLEXBOX
+@mixin flexCenter {
+   display: flex;
+   justify-content: center;
+}
+
+@mixin flexBetween {
+   display: flex;
+   justify-content: space-between;
+}
+
+@mixin flexEvenly {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+// FONTS //////////////////////////////////////////////////////////////
+
+// SANS-SERIF ///////////////////////////////
+@mixin sansSerif ($size) {
+   font-family: $sansSerif;
+   font-size: $size;
+}
+
+@mixin sansSerifItalic($size) {
+   font-family: $sansSerif;
+   font-style: italic;
+   font-size: $size;
+}
+
+// SERIF ///////////////////////////////
+@mixin serif ($size) {
+   font-family: $serif;
+   font-size: $size;
+}
+
+@mixin serifItalic($size) {
+   font-family: $cursive;
+   font-style: italic;
+   font-size: $size;
+}
+// CURSIVE ///////////////////////////////
+@mixin cursive ($size) {
+   font-family: $cursive;
+   font-size: $size;
+}
+
+@mixin cursiveItalic($size) {
+   font-family: $serif;
+   font-style: italic;
+   font-size: $size;
+}

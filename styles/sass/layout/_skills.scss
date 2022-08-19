@@ -1,0 +1,36 @@
+.skills {
+   .wrapper {
+      padding: 0;
+   }   
+   .stack {
+      font-size: 7rem;
+      text-align: center;
+      // padding: 0 15vw;
+      // display: flex;
+      // justify-content: center;
+      ul {
+         display: flex;
+         justify-content: space-around;
+         width: 100%;
+      }
+   
+      li {
+         margin: 7rem 0;
+         object-fit: cover;
+         img {
+            
+            width: 7rem;
+            height: 7rem;
+         }
+         
+      }
+      p {
+         font-size: 1.2rem;
+         span {
+            display: block;
+            line-height: 1rem;
+         }
+      }
+   }
+
+}
